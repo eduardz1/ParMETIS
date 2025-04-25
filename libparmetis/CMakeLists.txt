@@ -15,7 +15,7 @@ target_include_directories(parmetis PUBLIC
 "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR};${PROJECT_SOURCE_DIR}/include>"
 $<INSTALL_INTERFACE:include>
 PRIVATE
-${gklib_SOURCE_DIR}
+${GKlib_SOURCE_DIR}
 ${metis_fc_SOURCE_DIR}/include
 )
 target_link_libraries(parmetis PRIVATE MPI::MPI_C)
