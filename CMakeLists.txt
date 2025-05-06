@@ -9,7 +9,7 @@ CPMAddPackage(
   GITHUB_REPOSITORY "scivision/GKlib"
   GIT_TAG 078042614ff5192ab4c9bde0575bfef0d4572687
   OPTIONS
-    "CMAKE_C_FLAGS -D_POSIX_C_SOURCE 199309L" # see https://github.com/KarypisLab/GKlib/issues/24
+    "CMAKE_C_FLAGS -D_POSIX_C_SOURCE=199309L" # see https://github.com/KarypisLab/GKlib/issues/24
 )
 
 CPMAddPackage(
